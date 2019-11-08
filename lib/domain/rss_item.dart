@@ -17,7 +17,7 @@ class RssItem {
   final List<RssCategory> categories;
   final String guid;
   final String pubDate;
-  final String author;
+  String author;
   final String comments;
   final RssSource source;
   final RssContent content;
