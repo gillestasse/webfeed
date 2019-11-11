@@ -15,7 +15,7 @@ class RssFeed {
   final String author;
   final String description;
   final String link;
-  final List<RssItem> items;
+  List<RssItem> items;
 
   final RssImage image;
   final RssCloud cloud;
